@@ -30,9 +30,11 @@ const styles = StyleSheet.create({
     marginTop: 25,
     padding: 10
   },
-  header: {
-    fontSize: 20
-  },
+  nav:{
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  }
+
 });
 
 export default App;
