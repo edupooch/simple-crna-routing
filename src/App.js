@@ -3,9 +3,9 @@ import { StyleSheet, Text, View, Platform } from "react-native";
 
 import { Router, Route, Link } from "./components/react-router";
 
-const Home = () => <Text>Tela Inicial</Text>;
+const Home = () => <Text>Home</Text>;
 
-const About = () => <Text>Sobre</Text>;
+const About = () => <Text>About</Text>;
 
 const App = () => (
   <Router>
